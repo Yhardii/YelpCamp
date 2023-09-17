@@ -1,0 +1,31 @@
+body{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.cover-container{
+    max-width: 70vw;
+}
+
+.nav-link{
+    padding: 0.25rem 0;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: 1.5rem;
+    border-bottom: 0.25rem solid transparent;
+    transition: all 0.5s;
+    
+}
+
+.nav-link:hover{
+    border-bottom: 0.15rem solid rgba(255,255,255,0.6);
+    color: rgba(255, 255, 255, 0.7) ;
+}
+
+.btn-secondary, .btn-secondary:hover{
+    color: rgba(0,0,0,0.8);
+    font-weight: 700;
+}
